@@ -1,5 +1,6 @@
 ## Unreleased
 
+* [#645](https://github.com/CanCanCommunity/cancancan/issues/645): Generate inner queries instead of join+distinct. ([@mraidel][], [@gabsi20][])
 * [#649](https://github.com/CanCanCommunity/cancancan/pull/649): Add support for Single Table Inheritance. ([@Liberatys][])
 * [#655](https://github.com/CanCanCommunity/cancancan/pull/655): Add option for `accessible_by` querying strategy. ([@ghiculescu][])
 
@@ -670,5 +671,10 @@ Please read the [guide on migrating from CanCanCan 2.x to 3.0](https://github.co
 [@aleksejleonov]: https://github.com/aleksejleonov
 [@albb0920]: https://github.com/albb0920
 [@ayumu838]: https://github.com/ayumu838
+<<<<<<< HEAD
 [@Liberatys]: https://github.com/Liberatys
 [@ghiculescu]: https://github.com/ghiculescu
+=======
+[@mraidel]: https://github.com/mraidel
+[@gabsi20]: https://github.com/gabsi20
+>>>>>>> 79c5913... negated matcher for be_able_to only passes when no ability is eligible
